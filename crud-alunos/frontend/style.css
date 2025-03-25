@@ -1,18 +1,18 @@
 /* ========================= */
 /*        GERAL              */
 /* ========================= */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    background: linear-gradient(135deg, #ffdde1, #ee9ca7);
-    color: #4a4a4a;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #e0e0e0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,11 +25,12 @@ body {
 /*        TÍTULO             */
 /* ========================= */
 h1 {
-    font-size: 28px;
-    color: #333;
-    font-weight: 600;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
     text-align: center;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 /* ========================= */
@@ -38,39 +39,39 @@ h1 {
 form {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 14px;
     width: 800px;
-    /* Definido tamanho fixo para desktop */
-    background: #fff;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: #2c3e50;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Inputs */
 input {
     padding: 14px;
-    border: 2px solid #ee9ca7;
-    border-radius: 8px;
+    border: 2px solid #1e3c72;
+    border-radius: 6px;
     font-size: 18px;
     width: 100%;
-    background: #fce4ec;
+    background: #34495e;
+    color: #e0e0e0;
     transition: 0.3s;
 }
 
 input:focus {
-    border-color: #ff758c;
+    border-color: #2980b9;
     outline: none;
-    box-shadow: 0 0 8px rgba(255, 117, 140, 0.5);
+    box-shadow: 0 0 8px rgba(41, 128, 185, 0.6);
 }
 
 /* Botão de cadastro */
 button {
-    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    background: linear-gradient(135deg, #1e3c72, #2980b9);
     color: white;
     padding: 16px;
     border: none;
-    border-radius: 8px;
+    border-radius: 6px;
     font-size: 18px;
     cursor: pointer;
     transition: 0.3s;
@@ -79,7 +80,7 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(135deg, #ff5f6d, #ff99ac);
+    background: linear-gradient(135deg, #0f3057, #145da0);
     transform: scale(1.05);
 }
 
@@ -96,21 +97,22 @@ th,
 td {
     padding: 14px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #555;
 }
 
 th {
-    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
     color: white;
     font-weight: 600;
     text-align: center;
 }
 
 td {
-    background: #fff;
+    background: #2c3e50;
+    color: #e0e0e0;
     text-align: center;
 }
 
 tr:nth-child(even) {
-    background: #fce4ec;
+    background: #34495e;
 }
